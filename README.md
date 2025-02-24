@@ -5,10 +5,14 @@
 This microservice retrieves a Spotify album link (and an embed link) using the Spotify API by searching for an album using its name and artist. It uses Node.js and Express.
  
 **Endpoint:** /spotify-album
+
 **Method:** GET
 **Query Parameters:** album and artist (required)
+
 **Response:** JSON object containing the following:
+
           **spotifyLink:** URL to open in Spotify.
+          
            **embedLink:** URL to embed a Spotify player in a webpage.
 
 # Installation
