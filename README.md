@@ -10,11 +10,7 @@ This microservice retrieves a Spotify album link (and an embed link) using the S
 
 **Query Parameters:** album and artist (required)
 
-**Response:** JSON object containing the following:
-
-**spotifyLink:** URL to open in Spotify.
-          
-**embedLink:** URL to embed a Spotify player in a webpage.
+**Response:** JSON object containing 1. Spotify link and 2. Spotify Embed Link
 
 # Installation
 
