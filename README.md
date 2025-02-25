@@ -29,11 +29,15 @@ Open .env in /spotfiy-album-microservice
 # Requesting Data From the Spotify Album Link Microservice
 
 Make an HTTP GET request to the /spotify-album endpoint. This endpoint requires two query parameters:
-	•	album
-	•	artist
 
+    album
+    artist
+    
 Example Request URL: 
+	
 http://localhost:3001/spotify-album?album=In%20Rainbows&artist=Radiohead
+
+
 
 # Receiving Data From the Spotify Album Link Microservice
 The microservice will respond with a JSON object containing two keys.
