@@ -52,10 +52,9 @@ example response:
   	"embedLink": "https://open.spotify.com/embed/album/5vkqYmiPBYLaalcmjujWxK"
 	}
 
+<img width="831" alt="Screenshot 2025-02-24 at 7 22 33 PM" src="https://github.com/user-attachments/assets/feb34c7c-5fb4-4202-b819-e98abfdf2a55" />
 
  
-<img width="849" alt="Screenshot 2025-02-24 at 4 03 59 PM" src="https://github.com/user-attachments/assets/e6a4346e-4fdc-4742-ab84-12094fd4f861" />
-
 
 # Team Communications Contract/Ground Rules
 1) We use Discord for primary means of communication and use tags when getting someone’s attention.
