@@ -7,10 +7,11 @@ link using the Spotify API. It returns the spotify link and an embed link to the
 
 */
 
+// Require env and express
 const express = require('express');
-const fetch = require('node-fetch');
 require('dotenv').config();
 
+//create express server and use the port number in the env
 const app = express();
 const PORT = process.env.PORT;
 

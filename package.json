@@ -1,20 +1,26 @@
 {
-  "name": "spotify_album_link_microservice",
+  "name": "spotify-album-link-microservice",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "**Author:** Tavner Murphy **Date:** 2/24/25",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tavmurphy1/spotify-album-link-microservice.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "bugs": {
+    "url": "https://github.com/tavmurphy1/spotify-album-link-microservice/issues"
+  },
+  "homepage": "https://github.com/tavmurphy1/spotify-album-link-microservice#readme",
   "dependencies": {
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "node-fetch": "^3.3.2"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.9"
   }
 }
