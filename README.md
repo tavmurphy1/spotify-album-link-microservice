@@ -4,14 +4,6 @@
 
 This microservice retrieves a Spotify album link (and an embed link) using the Spotify API by searching for an album using its name and artist. It uses Node.js and Express.
  
-**Endpoint:** /spotify-album
-
-**Method:** GET
-
-**Query Parameters:** album and artist (required)
-
-**Response:** JSON object containing 1. Spotify link and 2. Spotify Embed Link
-
 # Installation
 
 # 1. Clone or Download the repository
@@ -23,7 +15,7 @@ This microservice retrieves a Spotify album link (and an embed link) using the S
 # 2. Install Dependencies
      npm install
 
-# 3. Configure .env Environment Variables
+# 3. Configure .env Environment Variables (optional)
     Open .env in /spotfiy-album-microservice
     Enter desired port #
     Enter spotify client ID
@@ -32,6 +24,26 @@ This microservice retrieves a Spotify album link (and an embed link) using the S
 # 4. Start the service
     npm start
 
+
+# Requesting Data From the Spotify Album Link Microservice
+
+Make an HTTP GET request to the /spotify-album endpoint. This endpoint requires two query parameters:
+	•	album
+	•	artist
+
+Example Request URL: 
+http://localhost:3001/spotify-album?album=In%20Rainbows&artist=Radiohead
+
+# Receiving Data From the Spotify Album Link Microservice
+The microservice will respond with a JSON object containing two keys.
+	•	the spotify link
+	•	the spotify link converted to an embed link
+
+example response:
+{
+  "spotifyLink": "https://open.spotify.com/album/5vkqYmiPBYLaalcmjujWxK",
+  "embedLink": "https://open.spotify.com/embed/album/5vkqYmiPBYLaalcmjujWxK"
+}
 
 
 # Team Communications Contract/Ground Rules
@@ -46,3 +58,11 @@ This microservice retrieves a Spotify album link (and an embed link) using the S
 5) As an absolute last resort email is for contacting if group mate is unresponsive after 72 hours. Otherwise communication should be kept to Discord.
 
 6) If a group member remains unresponsive after 72 hours and contact has been attempted through Discord and email, then a backup plan for microservices will go into effect.
+
+
+
+
+
+
+
+
