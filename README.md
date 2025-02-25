@@ -19,9 +19,9 @@ Open terminal to desired directory and enter the following:
 # 3. Configure .env Environment Variables (optional)
 
 	Open .env in /spotfiy-album-microservice
-   	Enter desired port #
-    	Enter desired spotify client ID
-    	Enter desired Spotify Secret
+	Enter desired port #
+	Enter desired spotify client ID
+	Enter desired Spotify Secret
 
 # 4. Start the service
     npm start
