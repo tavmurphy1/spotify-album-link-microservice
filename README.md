@@ -45,10 +45,12 @@ The microservice will respond with a JSON object containing two keys.
 	•	the spotify link converted to an embed link
 
 example response:
-{
+
+
+**{
   "spotifyLink": "https://open.spotify.com/album/5vkqYmiPBYLaalcmjujWxK",
   "embedLink": "https://open.spotify.com/embed/album/5vkqYmiPBYLaalcmjujWxK"
-}
+}**
 
 
 # Team Communications Contract/Ground Rules
