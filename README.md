@@ -9,12 +9,12 @@ This microservice retrieves a Spotify album link (and an embed link) using the S
 # 1. Clone or Download the repository
 Open terminal to desired directory and enter the following:
     
-    git clone https://github.com/yourusername/spotify-album-microservice.git
-    cd spotify-album-microservice
+	git clone https://github.com/yourusername/spotify-album-microservice.git
+	cd spotify-album-microservice
  
 
 # 2. Install Dependencies
-     npm install
+	npm install
 
 # 3. Configure .env Environment Variables (optional)
 
@@ -24,15 +24,15 @@ Open terminal to desired directory and enter the following:
 	Enter desired Spotify Secret
 
 # 4. Start the service
-    npm start
+	npm start
 
 
 # Requesting Data From the Spotify Album Link Microservice
 
 Make an HTTP GET request to the /spotify-album endpoint. This endpoint requires two query parameters:
 
-    album
-    artist
+	album
+	artist
     
 Example Request URL: 
 
@@ -43,8 +43,8 @@ Example Request URL:
 # Receiving Data From the Spotify Album Link Microservice
 The microservice will respond with a JSON object containing two keys.
 		
-  		the spotify link
-		the spotify link converted to an embed link
+  	the spotify link
+	the spotify link converted to an embed link
 
 example response:
 
