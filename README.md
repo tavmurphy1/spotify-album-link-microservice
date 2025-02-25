@@ -9,7 +9,7 @@ This microservice retrieves a Spotify album link (and an embed link) using the S
 # 1. Clone or Download the repository
 Open terminal to desired directory and enter the following:
     
-	git clone https://github.com/tavmurphy1/spotify-album-microservice.git
+	git clone https://github.com/tavmurphy1/spotify-album-link-microservice.git
 	cd spotify-album-microservice
  
 
