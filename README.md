@@ -35,8 +35,8 @@ Make an HTTP GET request to the /spotify-album endpoint. This endpoint requires 
     
 Example Request URL: 
 	
-http://localhost:3001/spotify-album?album=In%20Rainbows&artist=Radiohead
-
+**http://localhost:3001/spotify-album?album=In%20Rainbows&artist=Radiohead
+**
 
 
 # Receiving Data From the Spotify Album Link Microservice
