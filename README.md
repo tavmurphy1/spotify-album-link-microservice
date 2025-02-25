@@ -9,7 +9,7 @@ This microservice retrieves a Spotify album link (and an embed link) using the S
 # 1. Clone or Download the repository
 Open terminal to desired directory and enter the following:
     
-	git clone https://github.com/yourusername/spotify-album-microservice.git
+	git clone https://github.com/tavmurphy1/spotify-album-microservice.git
 	cd spotify-album-microservice
  
 
@@ -27,25 +27,24 @@ Open terminal to desired directory and enter the following:
 	npm start
 
 
-# Requesting Data From the Spotify Album Link Microservice
+# Communication Contract - Requesting Data From the Spotify Album Link Microservice
 
 Make an HTTP GET request to the /spotify-album endpoint. This endpoint requires two query parameters:
 
-	album
-	artist
+	- album
+	- artist
     
-Example Request URL: 
+Example HTTP GET Request URL: 
 
 	http://localhost:3001/spotify-album?album=In%20Rainbows&artist=Radiohead
 
 # Receiving Data From the Spotify Album Link Microservice
 The microservice will respond with a JSON object containing two keys.
 		
-  	the spotify link
-	the spotify link converted to an embed link
+  	- the spotify link
+	- the spotify link converted to an embed link
 
 example response:
-
 
 	{
   	"spotifyLink": "https://open.spotify.com/album/5vkqYmiPBYLaalcmjujWxK",
@@ -53,21 +52,6 @@ example response:
 	}
 
 <img width="831" alt="Screenshot 2025-02-24 at 7 22 33 PM" src="https://github.com/user-attachments/assets/feb34c7c-5fb4-4202-b819-e98abfdf2a55" />
-
- 
-
-# Team Communications Contract/Ground Rules
-1) We use Discord for primary means of communication and use tags when getting someone’s attention.
-
-2) Our team uses Asana for a task management system.
-
-3) 24 hours is our general expectation for a response if a group-mate asks you a direct question or tries to get in touch.
-
-4) If a group-mate knows they’re going to be unavailable for more than 24-48 hours then that should communicate that with the group ahead of time.
-
-5) As an absolute last resort email is for contacting if group mate is unresponsive after 72 hours. Otherwise communication should be kept to Discord.
-
-6) If a group member remains unresponsive after 72 hours and contact has been attempted through Discord and email, then a backup plan for microservices will go into effect.
 
 
 
