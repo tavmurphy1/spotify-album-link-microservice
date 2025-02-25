@@ -2,8 +2,8 @@
  * Author: Tavner Murphy
  * Date: 2/23/2024
 
-This express server microservice fetches both a spotify
-link using the Spotify API. It returns the spotify link and an embed link to the calling service.
+This express server microservice fetches a spotify
+link to an album using the Spotify API. It returns both a spotify link and an embed link to the calling process.
 
 */
 
@@ -30,7 +30,7 @@ const getSpotifyAccessToken = async () => {
   return data.access_token;
 };
 
-// Function to search Spotify for the Album + Artist, limit one result (best match)
+// Function to search Spotify for the Album + Artist, limit to one result (best match)
 const searchAlbumOnSpotify = async (album, artist, accessToken) => {
   const searchQuery = `album:${album} artist:${artist}`;
   const response = await fetch(`https://api.spotify.com/v1/search?q=${encodeURIComponent(searchQuery)}&type=album&limit=1`, {
@@ -45,8 +45,9 @@ const searchAlbumOnSpotify = async (album, artist, accessToken) => {
 app.get('/spotify-album', async (req, res) => {
   const { album, artist } = req.query;
 
+  //Handle missing inputs
   if (!album || !artist) {
-    return res.status(400).json({ error: 'Both album and artist name are required' });
+    return res.status(400).json({ error: 'Both album and artist name parameters required' });
   }
 
   try {
