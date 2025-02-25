@@ -51,9 +51,7 @@ example response:
   	"embedLink": "https://open.spotify.com/embed/album/5vkqYmiPBYLaalcmjujWxK"
 	}
 
-<img width="831" alt="Screenshot 2025-02-24 at 7 22 33 PM" src="https://github.com/user-attachments/assets/feb34c7c-5fb4-4202-b819-e98abfdf2a55" />
-
-
+<img width="987" alt="Screenshot 2025-02-24 at 8 13 22 PM" src="https://github.com/user-attachments/assets/f80d8fb2-4009-4b34-9fc2-ae0e8cb2f559" />
 
 
 
