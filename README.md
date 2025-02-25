@@ -38,8 +38,6 @@ Example Request URL:
 
 	http://localhost:3001/spotify-album?album=In%20Rainbows&artist=Radiohead
 
-
-
 # Receiving Data From the Spotify Album Link Microservice
 The microservice will respond with a JSON object containing two keys.
 		
@@ -53,6 +51,10 @@ example response:
   	"spotifyLink": "https://open.spotify.com/album/5vkqYmiPBYLaalcmjujWxK",
   	"embedLink": "https://open.spotify.com/embed/album/5vkqYmiPBYLaalcmjujWxK"
 	}
+
+
+ 
+<img width="849" alt="Screenshot 2025-02-24 at 4 03 59 PM" src="https://github.com/user-attachments/assets/e6a4346e-4fdc-4742-ab84-12094fd4f861" />
 
 
 # Team Communications Contract/Ground Rules
