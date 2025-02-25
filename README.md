@@ -34,23 +34,24 @@ Make an HTTP GET request to the /spotify-album endpoint. This endpoint requires 
     artist
     
 Example Request URL: 
-	
-**http://localhost:3001/spotify-album?album=In%20Rainbows&artist=Radiohead
-**
+
+	http://localhost:3001/spotify-album?album=In%20Rainbows&artist=Radiohead
+
 
 
 # Receiving Data From the Spotify Album Link Microservice
 The microservice will respond with a JSON object containing two keys.
-	•	the spotify link
-	•	the spotify link converted to an embed link
+		
+  		the spotify link
+		the spotify link converted to an embed link
 
 example response:
 
 
-**{
-  "spotifyLink": "https://open.spotify.com/album/5vkqYmiPBYLaalcmjujWxK",
-  "embedLink": "https://open.spotify.com/embed/album/5vkqYmiPBYLaalcmjujWxK"
-}**
+	{
+  	"spotifyLink": "https://open.spotify.com/album/5vkqYmiPBYLaalcmjujWxK",
+  	"embedLink": "https://open.spotify.com/embed/album/5vkqYmiPBYLaalcmjujWxK"
+	}
 
 
 # Team Communications Contract/Ground Rules
